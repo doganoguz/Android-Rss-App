@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/canli"
+            android:icon="@drawable/ca"
+            android:title="Canlı Sonuçlar" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/fik"
+            android:title="Fikstür" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/puan"
+            android:title="Puan Durumu" />
+
+
+    </group>
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Hakkında" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Çıkış Yap" />
+        </menu>
+    </item>
+
+
+
+</menu>
